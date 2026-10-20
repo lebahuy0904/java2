@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Thư viện ảnh tương tác với hỗ trợ chuột và bàn phím.">
+  <title>Thư viện ảnh tương tác</title>
+  <link rel="stylesheet" href="css/gallery.css">
+  <script src="js/gallery.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <p class="eyebrow">KHÁM PHÁ THẾ GIỚI</p>
+    <h1>Thư viện ảnh tương tác</h1>
+    <p class="intro">
+      Khám phá những khoảnh khắc tuyệt đẹp của thiên nhiên.
+      Di chuột hoặc sử dụng phím Tab để tương tác với từng bức ảnh.
+    </p>
+  </header>
+
+  <main>
+    <section class="gallery-section" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Bộ sưu tập thiên nhiên</h2>
+      <p class="instruction">
+        Chọn một bức ảnh bằng chuột hoặc bàn phím để xem ảnh lớn hơn.
+      </p>
+
+      <div class="gallery">
+        <figure class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+            alt="Hồ nước trong xanh giữa núi non và rừng cây"
+            tabindex="0">
+          <figcaption>Hồ nước giữa núi rừng</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+            alt="Phong cảnh thiên nhiên rộng lớn dưới bầu trời nhiều mây"
+            tabindex="0">
+          <figcaption>Vẻ đẹp của thiên nhiên</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+            alt="Động vật hoang dã giữa khu rừng xanh"
+            tabindex="0">
+          <figcaption>Cuộc sống hoang dã</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+            alt="Dãy núi phản chiếu trên mặt hồ yên bình"
+            tabindex="0">
+          <figcaption>Mặt hồ yên bình</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+            alt="Ánh nắng xuyên qua những tán cây trong rừng"
+            tabindex="0">
+          <figcaption>Khu rừng xanh mát</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+            alt="Những đỉnh núi cao hùng vĩ dưới bầu trời xanh"
+            tabindex="0">
+          <figcaption>Những đỉnh núi hùng vĩ</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="preview-section" aria-labelledby="preview-title">
+      <h2 id="preview-title">Ảnh bạn đang chọn</h2>
+      <div id="preview" class="preview" aria-live="polite">
+        <p>Di chuột hoặc nhấn Tab đến một bức ảnh để xem ảnh tại đây.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Dự án thực hành HTML, CSS, JavaScript và khả năng truy cập web.</p>
+  </footer>
+</body>
+</html>
